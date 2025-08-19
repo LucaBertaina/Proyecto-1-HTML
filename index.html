@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Luca Bertaina-La Buena Mesa</title>
+</head>
+
+<header>
+    <h1>La Buena Mesa</h1>
+    <p>Comida casera, sabor real</p>
+    <nav>
+        <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#reserva">Reservas</a></li>
+            <li><a href="ubicacion.html">¿Comó llegar?</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section id="menu">
+        <h2>Menu del dia</h2>
+
+        <article>
+            <h3>Milanesas con papas</h3>
+            <p>Mila de Carne clasica con Papas fritras de guarnicion</p>
+        </article>
+        <article>
+            <h3>Ravioles con Salsa</h3>
+            <p>Ravioles de ricota, jamon y queso. acompañados de salsa a eleccion roja/bolognesa/rosa/crema/manteca</p>
+        </article>
+        <article>
+            <h3>Tortilla de papas</h3>
+            <p>Una buena tortlla de papas con huevo y rodajas de chorizo</p>
+        </article>
+
+    </section>
+    <hr>
+    <aside id="nosotros">
+        <h2>Sobre nosotros</h2>
+        <p>Somos un restaurante de familia y amigos con mas de 5 años de experiencia, surgimos en pandemia y nos especializamos en ponerle amor a cada comida.</p>
+    </aside>
+    <hr>
+    <section id="reserva">
+        <h2>Reserva tu mesa</h2>
+        <form>
+            <fieldset>
+                <legend>Datos de la Reserva</legend>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Ej:Moni Argento" required>
+                <br><br>
+                <label for="email">Correo Electronico</label>
+                <input type="text" id="email" name="email" placeholder="Ej:MoniArg@gmail.com" required>
+                <br><br>
+                <label for="fecha">Fecha Reserva</label>
+                <input type="date" id="fecha" name="fecha" required>
+                <br><br>
+                <label for="hora">Fecha Reserva</label>
+                <input type="time" id="hora" name="hora" required>
+                <br><br>
+                <label for="personas">Cantidad de Personas</label>
+                <input type="number" id="personas" name="personas" placeholder="Ej:1" required min="1" max="16">
+                <br><br>
+                <label for="comentario">Comentario Adicional</label>
+                <textarea name="comentario" id="comentario" placeholder="Alguna Dietas especifica ej: celiaquia, hipertenso, etc." rows="5"></textarea>
+                <br><br>
+                <button type="submit">Reservar</button>
+            </fieldset>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; La Buena Mesa - Todos los derechos reservados</p>
+</footer>
+</html>
